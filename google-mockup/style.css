@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div.header-box{
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    list-style-type: none;
+    margin: 0;
+    display: block;
+    padding: 6px;
+    background-color:white;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+div.header-box>ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 6px;
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+div.header-box>ul>li{
+    display: flex;
+    padding:6px;
+}
+
+
+div.header-box>ul>li>a{
+    margin: 0;
+    text-decoration: none;
+    align-self:center;
+}
+div.header-box>ul>li>a.user-image{
+    margin: 0;
+}
+
+div.header-box>ul>li>a>img{
+    border-radius: 1.3rem;
+}
+
+
+section.banner-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100vw;
+    height: 80vh;
+}
+
+section.banner-container>form.search-box{
+    display: flex;
+    flex-direction: column;
+}
+
+section.banner-container>form.search-box>label{
+    height:6rem;
+    width:30rem;
+    transform: scale(1.2);
+}
+section.banner-container>form.search-box>label>.search-box__input{
+    width:100%;
+    height:2.5rem;
+    padding: 0.5rem 0.8rem;
+    margin: 0.2rem 0.3rem;
+    border:0.01rem solid rgba(128, 128, 128, 0.575);
+    border-radius: 2rem;
+    outline:none;
+    box-shadow: 2px 2px 6px rgba(128, 128, 128, 0.205);
+}
+
+section.banner-container>form.search-box>label>i{
+    position:relative;
+    left: 28rem;
+    top:2.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
